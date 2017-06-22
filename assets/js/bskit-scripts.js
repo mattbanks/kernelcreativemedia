@@ -138,8 +138,31 @@ $(function() {
     });
 });
 
-/* Thank You modal */
-var hash = window.location.hash.substr(1);
-if (hash && hash === 'thankyou') {
-  $('#thankyou').modal('show')
-}
+/* Form AJAX */
+var $contactForm = $('#contactform');
+var $contactContainer = $('#contact .contact-submit-container');
+var $submitButton = $('#cf-submit');
+var $spinner = $('.cf-submit-spinner')
+$contactForm.submit(function(e) {
+	e.preventDefault();
+	$.ajax({
+		url: '//formspree.io/info@kernelcreativemedia.com',
+		method: 'POST',
+		data: $(this).serialize(),
+		dataType: 'json',
+		beforeSend: function() {
+      $submitButton.hide();
+      $spinner.removeClass('hidden');
+		},
+		success: function(data) {
+      $contactForm.fadeOut().promise().done(function() {
+        $contactContainer.append('<div class="alert alert--success"><p>Thanks for your request! We\'ll look everything over and get in touch with you shortly.</div>');
+      });
+		},
+		error: function(err) {
+      $contactForm.fadeOut().promise().done(function() {
+        $contactContainer.append('<div class="alert alert--error">Something went wrong - please try again later :(</div>');
+      });
+		}
+	});
+});
