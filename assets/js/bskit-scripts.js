@@ -137,3 +137,9 @@ $(function() {
         catch(err) {}
     });
 });
+
+/* Thank You modal */
+var hash = window.location.hash.substr(1);
+if (hash && hash === 'thankyou') {
+  $('#thankyou').modal('show')
+}

@@ -23,6 +23,57 @@
                     <a href="mailto:info@kernelcreativemedia.com">info@kernelcreativemedia.com</a>
                 </li>
             </ul>
+
+            <div id="contact" class="form-container">
+              <div id="message"></div>
+              <form method="post" action="https://formspree.io/info@kernelcreativemedia.com" method="POST" name="contactform" id="contactform">
+                <div class="hidden">
+                  <input type="hidden" name="_subject" value="New contact request for {{ site.title }}" />
+                  <input type="hidden" name="_next" value="{{ site.url }}#thankyou" />
+                  <input type="text" name="_gotcha" style="display:none" />
+                </div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <input name="name" id="name" type="text" value="" placeholder="Name" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <input name="_replyto" id="email" type="text" value="" placeholder="Email" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <input name="phone" id="phone" type="text" value="" placeholder="Phone" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea name="comments" id="comments" class="form-control" rows="5" placeholder="Message"></textarea>
+                  <p class="small text-muted"><span class="guardsman">* All fields are required.</span> Once we receive your message we will respond as soon as possible.</p>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-primary" type="submit" id="cf-submit" name="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
         </div>
     </div>
+
+    <!-- Thank You Modal -->
+    <div class="modal fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Thank You!</h4>
+          </div>
+          <div class="modal-body">
+            <p>Thanks for your request! We'll look everything over and get in touch with you shortly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </section>
