@@ -345,7 +345,7 @@ b {
   color: #51d466 !important;
 }
 .lblue {
-  color: #32c8de !important;
+  color: #FFD200 !important;
 }
 .blue {
   color: #609cec !important;
@@ -382,7 +382,7 @@ b {
   background-color: #51d466 !important;
 }
 .bg-lblue {
-  background-color: #32c8de !important;
+  background-color: #FFD200 !important;
 }
 .bg-blue {
   background-color: #609cec !important;
@@ -420,7 +420,7 @@ b {
   border: 1px solid #51d466;
 }
 .br-lblue {
-  border: 1px solid #32c8de;
+  border: 1px solid #FFD200;
 }
 .br-blue {
   border: 1px solid #609cec;
@@ -1223,7 +1223,7 @@ ul.circle li:before
 }
 .btn.btn-lblue {
 	color: #ffffff;
-	background: #32c8de;
+	background: #FFD200;
 	border: 1px solid #1faabe;
 }
 .btn.btn-lblue:hover,

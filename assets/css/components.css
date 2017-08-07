@@ -231,7 +231,7 @@ Version: 1.0
 
 .tp-banner-container a.re-btn-brd:hover {
   color: #555;
-  background: #fff; 
+  background: #fff;
 }
 
 /*Fullwidth*/
@@ -260,7 +260,7 @@ Version: 1.0
   content: ' ';
   position: absolute;
   background: rgba(0,0,0,0.3);
-} 
+}
 
 .revolution-ch1 {
   color: #fff;
@@ -286,7 +286,7 @@ Version: 1.0
   left: 50%;
   width: 70px;
   height: 2px;
-  content: ' '; 
+  content: ' ';
   bottom: -20px;
   background: #fff;
   margin-left: -35px;
@@ -471,16 +471,16 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-right .image-container {
 		height: 100%;
 	}
-	
+
 	.content-right .content {
 		margin-top: 0px;
 		padding: 80px 15px 80px 80px;
 	}
-	
+
 }
 
 
@@ -532,16 +532,16 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+
 	.content-left .image-container {
 		height: 100%;
 	}
-	
+
 	.content-left .content {
 		margin-top: 0px;
 		padding: 80px 80px 80px 15px;
 	}
-	
+
 }
 
 /* COUNTER */
@@ -628,7 +628,7 @@ Version: 1.0
 	margin:0px auto;
 }
 /* Icon */
-.colorful-services .ui-item i{	
+.colorful-services .ui-item i{
 	display:inline-block;
 	width:40px;
 	float:left;
@@ -693,7 +693,7 @@ Version: 1.0
 	line-height:26px;
 	color:rgba(255,255,255,0.9);
 	position:absolute;
-	top:350px;	
+	top:350px;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -709,7 +709,7 @@ Version: 1.0
 .services-2 .ui-item span strong{
 	display:block;
 	font-size:14px;
-	color:#fff;	
+	color:#fff;
 }
 
 
@@ -743,7 +743,7 @@ Version: 1.0
 .testimonials .ui-item .ui-user a > img{
 	max-width:40px;
 	border-radius:100%;
-	border:3px solid #fff;	
+	border:3px solid #fff;
 }
 /* User Name */
 .testimonials .ui-item .ui-user h3{
@@ -756,7 +756,7 @@ Version: 1.0
 .testimonials .ui-item .ui-user h3 > span{
 	display:block;
 	font-size:13px;
-	line-height:16px;	
+	line-height:16px;
 	font-weight: 400;
 	color:#fff;
 }
@@ -1043,14 +1043,14 @@ Version: 1.0
 
 .team{
 	margin:0px 0px 50px 0;
-}	
+}
 .team .team-member {
 	max-width: 280px;
 	margin: 20px auto;
 	background:#fff;
 }
-.team .img-container { 
-	position: relative; 
+.team .img-container {
+	position: relative;
 }
 .team .img-container .img-hover {
 	position: absolute;
@@ -1120,14 +1120,14 @@ Version: 1.0
 }
 .team .team-member:hover .team-details {
 	border-top:0px !important;
-	background:#32c8de;
-} 
-.team .team-member:hover .team-details h4 { 
-	color: #fff; 
+	background:#FFD200;
+}
+.team .team-member:hover .team-details h4 {
+	color: #fff;
 }
 .team .team-member:hover .team-details .deg,
-.team .team-member:hover .team-details p { 
-	color: #fff; 
+.team .team-member:hover .team-details p {
+	color: #fff;
 }
 
 
@@ -1324,23 +1324,23 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-		
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 /*	FOOTER
