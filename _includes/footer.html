@@ -12,7 +12,7 @@
                         <h4>Shortcuts</h4>
                         <ul class="soft-scroll">
                             {% for link in site.navigation %}
-                            <li class="nav-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+                            <li class="nav-item"><a href="{{ link.url }}" onclick="ga('send', 'event', {eventCategory: 'Footer Navigation', eventAction: 'click', eventLabel: '{{ link.url }}'})">{{ link.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -26,6 +26,6 @@
 
 <div class="copyright-bar">
     <div class="container">
-        <p class="pull-left small">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">{{ site.title }}</a></p>
+        <p class="pull-left small">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.url }}" onclick="ga('send', 'event', {eventCategory: 'Footer Copyright Link', eventAction: 'click', eventLabel: '{{ site.url }}'})">{{ site.title }}</a></p>
     </div>
 </div>

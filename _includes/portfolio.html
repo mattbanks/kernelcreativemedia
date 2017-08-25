@@ -12,7 +12,7 @@
             </li>
             {% for tag in page.available_tags %}
             <li>
-                <a href="#" data-filter=".{{ tag }}">{{ tag }}</a>
+                <a href="#" data-filter=".{{ tag }}" onclick="ga('send', 'event', {eventCategory: 'Portfolio Filter', eventAction: 'click', eventLabel: '{{ tag }}'})">{{ tag }}</a>
             </li>
             {% endfor %}
         </ul>
@@ -25,8 +25,8 @@
                         <div class="gallery-thumb">
                             <img src="{{ item.image | prepend: site.baseurl }}" class="img-responsive" alt="">
                             <div class="image-overlay"></div>
-                            <a href="{{ item.image | prepend: site.baseurl }}" class="gallery-zoom"><i class="fa fa-eye"></i></a>
-                            <a href="{{ item.link }}" class="gallery-link" target="_blank"><i class="fa fa-link"></i></a>
+                            <a href="{{ item.image | prepend: site.baseurl }}" class="gallery-zoom" onclick="ga('send', 'event', {eventCategory: 'Porfolio Item Inspect', eventAction: 'click', eventLabel: '{{ item.title }}'})"><i class="fa fa-eye"></i></a>
+                            <a href="{{ item.link }}" class="gallery-link" target="_blank" onclick="ga('send', 'event', {eventCategory: 'Porfolio Item Outbound Link', eventAction: 'click', eventLabel: '{{ item.title }}'})"><i class="fa fa-link"></i></a>
                         </div>
                         <p style="text-align: center">{{ item.title }}</p>
                     </div>
@@ -37,7 +37,7 @@
             <div class="col-md-12 text-center">
             <h3 class="text-center">We turn great ideas into brilliant realities.</h3>
             <p class="text-center">Quis dolorem architecto nemo, enim pariatur, aliquid laudantium voluptatum animi. Adipisicing rerum, natus repellendus<br> possimus et excepturi. Reprehenderit iste, laborum quod mollitia nesciunt.</p>
-            <a href="#contact" class="btn btn-outline btn-outline outline-light-full text-center soft-scroll">Want to see more?</a>
+            <a href="#contact" class="btn btn-outline btn-outline outline-light-full text-center soft-scroll" onclick="ga('send', 'event', {eventCategory: 'Porfolio See More Button', eventAction: 'click', eventLabel: '#contact'})">Want to see more?</a>
             </div>
         </div>
         <!-- /.row -->

@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a href="{{ site.url }}"><img src="assets/images/logo.png" alt="logo" class="brand-img img-responsive"></a>
+                <a href="{{ site.url }}" onclick="ga('send', 'event', {eventCategory: 'Logo Link', eventAction: 'click', eventLabel: '{{ site.url }}'})"><img src="assets/images/logo.png" alt="logo" class="brand-img img-responsive"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,7 +18,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     {% for link in site.navigation %}
-                    <li class="nav-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    <li class="nav-item"><a href="{{ link.url }}" onclick="ga('send', 'event', {eventCategory: 'Main Navigation', eventAction: 'click', eventLabel: '{{ link.url }}'})">{{ link.title }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
