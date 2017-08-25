@@ -301,7 +301,7 @@ Version: 1.0
   font-weight: 600;
   line-height: 60px;
   text-transform: uppercase;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .re-title-v2 {
@@ -311,7 +311,7 @@ Version: 1.0
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .re-text-v1 {
@@ -443,7 +443,7 @@ Version: 1.0
 }
 
 .content-right .image-container .background-image-holder {
-	background: url('../images/low-poly-1.jpg') no-repeat center center;
+	background: url('../images/about.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -504,7 +504,7 @@ Version: 1.0
 }
 
 .content-left .image-container .background-image-holder {
-	background: url('../images/low-poly-2.jpg') no-repeat center center;
+	background: url('../images/about.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
