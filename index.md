@@ -18,44 +18,43 @@ portfolio:
       link: http://hattiesrestaurant.com
       image: assets/images/portfolio/hatties.jpg
       tags:
-        - websites and apps
+        - web
     - title: Park Side Eatery
       link: http://parksideeatery.com
       image: assets/images/portfolio/parkside.jpg
       tags:
-        - websites and apps
+        - web
     - title: Isen & Company
       link: http://www.isencompany.com
       image: assets/images/portfolio/isen.jpg
       tags:
-        - websites and apps
+        - web
     - title: Reed Yeboah Fine Violins
       link: http://www.reedyeboahviolins.com
       image: assets/images/portfolio/reedyeboah.jpg
       tags:
-        - websites and apps
+        - web
     - title: Saratoga Arts
       link: http://saratoga-arts.org
       image: assets/images/portfolio/saratogaarts.jpg
       tags:
-        - websites and apps
+        - web
     - title: Central Capital Health
       link: http://www.chcap.com
       image: assets/images/portfolio/chcap.jpg
       tags:
-        - websites and apps
+        - web
     - title: Steven Baldwin Associates
       link: http://www.baldwinllc.com
       image: assets/images/portfolio/baldwin.jpg
       tags:
-        - websites and apps
+        - web
     - title: Hatties Chicken Shack
       link: http://www.hattieschickenshacks.com
       image: assets/images/portfolio/hatties-shack.jpg
       tags:
-        - websites and apps
+        - web
 available_tags:
-        - websites and apps
-        - marketing and strategy
-        - misc
+        - web
+        - marketing
 ---
