@@ -24,10 +24,10 @@ navigation:
    url: '#contact'
 
 social:
-   github: mattbanks
-   twitter: mattbanks
-   facebook: mattbanks
+   github:
+   twitter:
+   facebook:
 
-google_analytics: "XXXX"
+google_analytics: 'UA-15214456-1'
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'package.json']
