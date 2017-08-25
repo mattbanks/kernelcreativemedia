@@ -20,4 +20,5 @@
     <link rel="stylesheet" href="{{ "/assets/rs-plugin/css/settings.css" | prepend: site.baseurl }}">
 
     {% include seo.html %}
+    {% if site.google_analytics %} {% include google_analytics.html %} {% endif %}
 </head>
