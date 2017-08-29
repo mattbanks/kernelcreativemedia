@@ -19,6 +19,11 @@ portfolio:
       image: assets/images/portfolio/hatties.jpg
       tags:
         - web
+    - title: Sylvan Learning
+      link: https://locations.sylvanlearning.com/us/albany-ny
+      image: assets/images/portfolio/sylvan.jpg
+      tags:
+        - marketing
     - title: Park Side Eatery
       link: http://parksideeatery.com
       image: assets/images/portfolio/parkside.jpg
@@ -29,6 +34,11 @@ portfolio:
       image: assets/images/portfolio/isen.jpg
       tags:
         - web
+    - title: Capital Repertory Theatre
+      link: http://www.isencompany.com
+      image: assets/images/portfolio/caprep.jpg
+      tags:
+        - marketing
     - title: Reed Yeboah Fine Violins
       link: http://www.reedyeboahviolins.com
       image: assets/images/portfolio/reedyeboah.jpg
@@ -37,16 +47,6 @@ portfolio:
     - title: Saratoga Arts
       link: http://saratoga-arts.org
       image: assets/images/portfolio/saratogaarts.jpg
-      tags:
-        - web
-    - title: Central Capital Health
-      link: http://www.chcap.com
-      image: assets/images/portfolio/chcap.jpg
-      tags:
-        - web
-    - title: Steven Baldwin Associates
-      link: http://www.baldwinllc.com
-      image: assets/images/portfolio/baldwin.jpg
       tags:
         - web
     - title: Hatties Chicken Shack
