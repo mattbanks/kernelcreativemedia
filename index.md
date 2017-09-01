@@ -24,36 +24,37 @@ portfolio:
       image: assets/images/portfolio/sylvan.jpg
       tags:
         - marketing
-    - title: Park Side Eatery
-      link: http://parksideeatery.com
-      image: assets/images/portfolio/parkside.jpg
-      tags:
-        - web
-    - title: Isen & Company
-      link: http://www.isencompany.com
-      image: assets/images/portfolio/isen.jpg
-      tags:
-        - web
     - title: Capital Repertory Theatre
       link: http://www.isencompany.com
       image: assets/images/portfolio/caprep.jpg
       tags:
         - marketing
-    - title: Reed Yeboah Fine Violins
-      link: http://www.reedyeboahviolins.com
-      image: assets/images/portfolio/reedyeboah.jpg
+    - title: Isen & Company
+      link: http://www.isencompany.com
+      image: assets/images/portfolio/isen.jpg
       tags:
         - web
+    - title: VMJR Companies
+      link: http://www.vmjrcompanies.com
+      image: assets/images/portfolio/vmjr.jpg
+      tags:
+        - marketing
+    - title: Park Side Eatery
+      link: http://parksideeatery.com
+      image: assets/images/portfolio/parkside.jpg
+      tags:
+        - web
+    - title: "AND: Architecture & Design"
+      link: https://www.and-architecture.com
+      image: assets/images/portfolio/and-architecture.jpg
+      tags:
+        - marketing
     - title: Saratoga Arts
       link: http://saratoga-arts.org
       image: assets/images/portfolio/saratogaarts.jpg
       tags:
         - web
-    - title: Hatties Chicken Shack
-      link: http://www.hattieschickenshacks.com
-      image: assets/images/portfolio/hatties-shack.jpg
-      tags:
-        - web
+
 available_tags:
         - web
         - marketing
