@@ -1,9 +1,5 @@
 /*
-Template Name: Titanium - Responsive HTML5 Template
-Description: Business,  Corporate, Agency, Portfolio
-Author: SkyEye Themes
-Author URI: http://skyeye-themes.com
-Version: 1.0
+Kernel Creative Media Site Styles
 */
 
 /*-----------------------------------------------------
@@ -41,10 +37,10 @@ body {
 /*	TYPOGRAPHY
 /*----------------------------------------------------*/
 
-h1, .h1, 
-h2, .h2, 
-h3, .h3, 
-h4, .h4, 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
 h5, .h5,
 h6, .h6,
 p, .lead {
@@ -105,15 +101,15 @@ p {
    h2 {
       font-size: 1.5em;
    }
-   
+
    h3 {
 	   font-size:1.3em;
    }
    h4, h5 h6 {
 	   font-size:1em;
    }
-   
-   .underlined-title h1 
+
+   .underlined-title h1
    {
     color: #3f444a;
     margin: 0;
@@ -143,19 +139,19 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 	font-family: "Roboto Condensed", sans-serif;
 }
-	
-	
-	
+
+
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
-strong, 
+strong,
 b {
     font-weight: 900;
 }
@@ -172,7 +168,7 @@ b {
 }
 
 /* BACKGROUND COLORS */
-.bg-primary 
+.bg-primary
 {
 	background-color: #FFD200 !important;
 }
