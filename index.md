@@ -44,9 +44,9 @@ portfolio:
       image: assets/images/portfolio/putnammarket.jpg
       tags:
         - web
-    - title: "AND: Architecture & Design"
-      link: https://www.and-architecture.com
-      image: assets/images/portfolio/and-architecture.jpg
+    - title: Kodiak Construction
+      link: http://www.kodiakofsaratoga.com
+      image: assets/images/portfolio/kodiakconstruction.jpg
       tags:
         - marketing
     - title: Saratoga Arts
