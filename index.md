@@ -39,9 +39,9 @@ portfolio:
       image: assets/images/portfolio/vmjr.jpg
       tags:
         - marketing
-    - title: Park Side Eatery
-      link: http://parksideeatery.com
-      image: assets/images/portfolio/parkside.jpg
+    - title: Putnam Market
+      link: http://putnammarket.com
+      image: assets/images/portfolio/putnammarket.jpg
       tags:
         - web
     - title: "AND: Architecture & Design"
