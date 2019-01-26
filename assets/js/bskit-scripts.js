@@ -131,6 +131,11 @@ $(function() {
                     scrollTop: elem.offset().top
                 }, 1000);
 
+                // Hide the mobile nav if it's open
+                if ($("#navbar-collapse").hasClass("in")) {
+                  $("button.navbar-toggle").click();
+                }
+
                 event.preventDefault();
             }
         }
