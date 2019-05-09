@@ -31,3 +31,4 @@ social:
 google_analytics: "UA-15214456-1"
 
 exclude: ["README.md", "Gemfile.lock", "Gemfile", "package.json"]
+include: ["_redirects"]
