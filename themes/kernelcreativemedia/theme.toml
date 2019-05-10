@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Kernel Creative Media"
+license = "MIT"
+licenselink = "https://github.com/mattbanks/kernelcreativemedia/blob/master/themes/kernelcreativemedia/LICENSE"
+description = "Kernel Creative Media website theme"
+homepage = "https://www.kernelcreativemedia.com"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Matt Banks"
+  homepage = "https://www.kernelcreativemedia.com"

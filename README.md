@@ -7,5 +7,13 @@ Website for Kernel Creative Media running Jeyll.
 ## Setup
 
 1. Clone this repo
-2. Run `bundle install`
-3. Run Jekyll `bundle exec jekyll serve`
+2. Run `hugo server -D`
+3. Go to town!
+
+## Build
+
+1. Run `hugo --gc --minify`
+
+## Deploy
+
+This repo is setup to auto deploy to Netlify
