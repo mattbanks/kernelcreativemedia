@@ -1,0 +1,21 @@
+/* Put your custom styles here */
+#thankyou {
+  top: 110px;
+}
+
+#intro {
+  padding: 0;
+}
+
+#intro .underlined-title {
+	padding-bottom: 0;
+}
+
+#intro .underlined-title hr {
+	width: 100%;
+	margin: 30px 0;
+}
+
+.filter li.active a {
+  color: #FFD200;
+}

@@ -1,0 +1,26 @@
+<header id="header" class="soft-scroll header">
+  <nav class="main-nav navbar navbar-default navbar-fixed-top bg-white">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a href="{{ .Permalink }}" onclick="ga('send', 'event', {eventCategory: 'Logo Link', eventAction: 'click', eventLabel: '{{ .Permalink }}'})"><img src="assets/images/logo.png" alt="logo" class="brand-img img-responsive"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          {{ range .Site.Menus.main }}
+            <li class="nav-item">
+              <a href="{{ .URL }}" onclick="ga('send', 'event', {eventCategory: 'Main Navigation', eventAction: 'click', eventLabel: '{{ .URL }}'})">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

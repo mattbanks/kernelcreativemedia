@@ -1,0 +1,35 @@
+<!-- TEAM -->
+<section id="team" class="content-block">
+  <div class="underlined-title">
+    <h1>Our team</h1>
+    <hr />
+  </div>
+
+  <div class="team">
+    <div class="container">
+      <div class="row">
+        {{ range $i, $teammember := .Params.team }}
+        <div class="col-md-3 {{ if eq $i 0 }}col-md-offset-3{{ end }} col-sm-6">
+          <div class="team-member">
+            <div class="img-container">
+              <img class="img-responsive" src="{{ $teammember.image | relURL }}" alt="{{ $teammember.name }}"/>
+              <div class="img-hover">
+                <div class="brand-bg">
+                  <a class="email" href="mailto:{{ $teammember.email }}">
+                    <i class="fa fa-envelope-o"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="team-details">
+              <h4>{{ $teammember.name }}</h4>
+              <span class="deg">{{ $teammember.title }}</span>
+              <p>{{ $teammember.bio }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
