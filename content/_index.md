@@ -24,7 +24,7 @@ portfolio:
     tags:
       - marketing
   - title: Capital Repertory Theatre
-    link: http://www.isencompany.com
+    link: https://capitalrep.org
     image: assets/images/portfolio/caprep.jpg
     tags:
       - marketing
