@@ -4,4 +4,4 @@
 https://nervous-euler-fdae1e.netlify.com/* https://www.kernelcreativemedia.com/:splat 301!
 
 # Redirect everything to index.html as a 301
-/* /index.html 301
+/* / 301
