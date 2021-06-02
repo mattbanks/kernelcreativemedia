@@ -2,3 +2,6 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://nervous-euler-fdae1e.netlify.com/* https://www.kernelcreativemedia.com/:splat 301!
+
+# Redirect everything to index.html
+/* /index.html 200
